@@ -1,0 +1,40 @@
+[
+  {
+    "file": "main.c",
+    "arguments": [
+      "clang",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-pedantic",
+      "-O3",
+      "-march=native",
+      "-mtune=native",
+      "-fdefer-ts",
+      "-flto",
+      "-fno-ident",
+      "-fno-asynchronous-unwind-tables",
+      "-fno-stack-protector",
+      "-funroll-loops",
+      "-fomit-frame-pointer",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-ffreestanding",
+      "-fno-exceptions",
+      "-DNDEBUG",
+      "-fno-rtti",
+      "-fno-threadsafe-statics",
+      "-fno-use-cxa-atexit",
+      "-fno-stack-check",
+      "-fno-stack-clash-protection",
+      "-fno-sanitize=all",
+      "-fno-sanitize-recover=all",
+      "-std=c2y",
+      "main.c",
+      "-o",
+      "main"
+    ],
+    "directory": "/home/wafi/coding/human_typing",
+    "output": "main"
+  }
+]
