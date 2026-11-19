@@ -21,7 +21,6 @@
       "-fdata-sections",
       "-ffreestanding",
       "-fno-exceptions",
-      "-DNDEBUG",
       "-fno-rtti",
       "-fno-threadsafe-statics",
       "-fno-use-cxa-atexit",
@@ -29,7 +28,9 @@
       "-fno-stack-clash-protection",
       "-fno-sanitize=all",
       "-fno-sanitize-recover=all",
-      "-std=c2y",
+      "-std=gnu2y",
+      "-x",
+      "c",
       "main.c",
       "-o",
       "main"
